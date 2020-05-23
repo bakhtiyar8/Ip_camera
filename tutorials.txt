@@ -1,0 +1,21 @@
+#
+Create a virtual environment in Python 3 with the environment name of env:
+
+						virtualenv -p python3 env
+#
+Validate that environment is installed with python3:
+
+						ls env/lib
+
+
+#
+Activate the environment
+						source env/bin/activate
+
+
+# 
+Installation of audio libraries on Ubuntu
+
+						sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+						sudo apt-get install ffmpeg libav-tools
+						sudo pip install pyaudio
