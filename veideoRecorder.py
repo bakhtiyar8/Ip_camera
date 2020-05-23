@@ -17,7 +17,7 @@ print("ALl logs saved in dir:", name)
 #os.mkdir(name)
 
 
-cap = cv2.VideoCapture('rtsp://admin:cda7q14c@ip_address_of_your_camera/ch0_0.h264')
+cap = cv2.VideoCapture('rtsp://admin:password@ip_address_of_your_camera/ch0_0.h264')
 ret = cap.set(3, 864)
 ret = cap.set(4, 480)
 cur_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
